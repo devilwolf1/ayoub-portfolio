@@ -5,7 +5,7 @@ export const profile = {
   headline: 'I Build Modern Websites That Help Businesses Grow',
   image: '/images/profile.png',
   fallbackImage: '/images/profile-placeholder.svg',
-  email: 'ayoub@example.com',
-  whatsapp: '1234567890',
+  email: 'ayoubelkhoms300@gmail.com',
+  whatsapp: '212000000000',
   location: 'Available Worldwide',
 }

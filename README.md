@@ -20,7 +20,19 @@ Open http://localhost:5173/
 
 ```bash
 npm run build
+npm run preview
 ```
+
+## Deploy (Vercel)
+
+1. Push this repo to GitHub: `devilwolf1/ayoub-portfolio`
+2. Import the repo at [vercel.com/new](https://vercel.com/new)
+3. Framework preset: **Vite**
+4. Build command: `npm run build`
+5. Output directory: `dist`
+6. Deploy
+
+`vercel.json` is included for client-side routing.
 
 ## Author
 

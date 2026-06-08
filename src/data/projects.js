@@ -9,7 +9,7 @@ export const projects = [
       'A full-stack sports operations platform for Raja CA with AI-powered coaching evaluation, president governance, transfer scouting, and real-time squad management.',
     image: '/images/projects/raja-club-ath.jpg',
     technologies: ['React', 'Django', 'DRF', 'PostgreSQL', 'JWT', 'Recharts', 'AI'],
-    demoUrl: 'http://localhost:3000/welcome',
+    demoUrl: `https://github.com/${GITHUB_USER}/raja-club-athletic`,
     githubUrl: `https://github.com/${GITHUB_USER}/raja-club-athletic`,
     problem:
       'Raja Club Athletic needed a unified digital command center to manage first-team operations, evaluate coaching staff with AI, and streamline president-level decisions across scouting and finances.',

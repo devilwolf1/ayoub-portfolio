@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Environment
+.env
+.env.*
+!.env.example
+
+# Backup assets
+public/images/profile-backup.png
+public/images/profile-real.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
