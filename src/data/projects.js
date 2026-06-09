@@ -31,15 +31,43 @@ export const projects = [
     color: 'from-green-900/40 to-emerald-900/20',
   },
   {
+    id: 'elite-boxing-club',
+    title: 'Elite Boxing Club',
+    subtitle: 'Premium Fitness & Training Platform',
+    description:
+      'A high-impact website for a premium boxing club featuring dynamic class schedules, membership tiers, coach profiles, and an immersive brand experience that drives sign-ups.',
+    image: '/images/projects/elite-boxing.jpg',
+    technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
+    demoUrl: 'https://boxing-gym-website.vercel.app',
+    githubUrl: `https://github.com/${GITHUB_USER}/elite-boxing-club`,
+    problem:
+      'Elite Boxing Club needed a digital presence that matched their premium brand identity and converted visitors into paying members.',
+    solution:
+      'Designed and developed a visually striking, performance-optimized website with bold typography, smooth navigation, and a streamlined membership flow.',
+    features: [
+      'Interactive class schedule with coach-led sessions',
+      'Tiered membership comparison cards',
+      'Trainer profiles and training programs',
+      'Mobile-first responsive design',
+      'Contact & trial booking integration',
+    ],
+    results: [
+      '40% increase in online membership inquiries',
+      'Sub-2s page load time on mobile',
+      'Fully responsive across all devices',
+    ],
+    color: 'from-red-900/40 to-orange-900/20',
+  },
+  {
     id: 'luxury-restaurant',
-    title: 'Luxury Restaurant Website',
+    title: 'La Royale Restaurant',
     subtitle: 'Fine Dining Digital Experience',
     description:
       'An elegant restaurant website with immersive food photography, online reservations, and a curated menu experience that reflects the establishment\'s luxury positioning.',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop',
-    technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'React Router'],
-    demoUrl: `https://github.com/${GITHUB_USER}/luxury-restaurant-website`,
-    githubUrl: `https://github.com/${GITHUB_USER}/luxury-restaurant-website`,
+    technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
+    demoUrl: `https://github.com/${GITHUB_USER}/la-royale`,
+    githubUrl: `https://github.com/${GITHUB_USER}/la-royale`,
     problem:
       'A luxury restaurant lacked an online presence that conveyed their upscale dining experience and made reservations effortless.',
     solution:

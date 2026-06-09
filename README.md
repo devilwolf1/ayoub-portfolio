@@ -5,7 +5,8 @@ Premium personal portfolio built with React, Vite, Tailwind CSS, and Framer Moti
 ## Featured projects
 
 - [Raja Club Athletic](https://github.com/devilwolf1/raja-club-athletic) — Full-stack sports management platform
-- Luxury Restaurant Website
+- [Elite Boxing Club](https://github.com/devilwolf1/elite-boxing-club) — Premium boxing gym website ([Live Demo](https://boxing-gym-website.vercel.app))
+- [La Royale Restaurant](https://github.com/devilwolf1/la-royale) — Fine dining website
 
 ## Development
 

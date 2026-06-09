@@ -69,6 +69,8 @@ export default function Projects() {
                   <div className="flex gap-3">
                     <a
                       href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
                       className="w-9 h-9 rounded-lg glass flex items-center justify-center text-secondary-text hover:text-accent-gold transition-colors"
                       aria-label="Live demo"
@@ -77,6 +79,8 @@ export default function Projects() {
                     </a>
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
                       className="w-9 h-9 rounded-lg glass flex items-center justify-center text-secondary-text hover:text-accent-gold transition-colors"
                       aria-label="GitHub"

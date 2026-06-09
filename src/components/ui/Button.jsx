@@ -22,12 +22,14 @@ export default function Button({
   const classes = `inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300 cursor-pointer ${variants[variant]} ${className}`
 
   if (href) {
+    const isExternal = href.startsWith('http')
     return (
       <motion.a
         href={href}
         className={classes}
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.97 }}
+        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
         {...props}
       >
         {children}
