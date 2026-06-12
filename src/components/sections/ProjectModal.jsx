@@ -112,11 +112,11 @@ export default function ProjectModal({ project, onClose }) {
             <div className="flex flex-col sm:flex-row gap-3 mt-8">
               <Button href={project.demoUrl} variant="primary" className="flex-1">
                 <FaExternalLinkAlt size={14} />
-                Live Demo
+                Visit Website
               </Button>
               <Button href={project.githubUrl} variant="secondary" className="flex-1">
                 <FaGithub size={16} />
-                View Code
+                View Code on GitHub
               </Button>
             </div>
           </div>
