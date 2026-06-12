@@ -1,5 +1,20 @@
 const GITHUB_USER = 'devilwolf1'
 
+export const PROJECT_URLS = {
+  raja: {
+    demo: 'https://raja-club-athletic.vercel.app/welcome',
+    github: `https://github.com/${GITHUB_USER}/raja-club-athletic`,
+  },
+  boxing: {
+    demo: 'https://elite-boxing-club.vercel.app',
+    github: `https://github.com/${GITHUB_USER}/elite-boxing-club`,
+  },
+  restaurant: {
+    demo: 'https://la-royale-restaurant.vercel.app',
+    github: `https://github.com/${GITHUB_USER}/la-royale`,
+  },
+}
+
 export const projects = [
   {
     id: 'raja-club-athletic',
@@ -9,8 +24,8 @@ export const projects = [
       'A full-stack sports operations platform for Raja CA with AI-powered coaching evaluation, president governance, transfer scouting, and real-time squad management.',
     image: '/images/projects/raja-club-ath.jpg',
     technologies: ['React', 'Django', 'DRF', 'PostgreSQL', 'JWT', 'Recharts', 'AI'],
-    demoUrl: `https://github.com/${GITHUB_USER}/raja-club-athletic`,
-    githubUrl: `https://github.com/${GITHUB_USER}/raja-club-athletic`,
+    demoUrl: PROJECT_URLS.raja.demo,
+    githubUrl: PROJECT_URLS.raja.github,
     problem:
       'Raja Club Athletic needed a unified digital command center to manage first-team operations, evaluate coaching staff with AI, and streamline president-level decisions across scouting and finances.',
     solution:
@@ -38,8 +53,8 @@ export const projects = [
       'A high-impact website for a premium boxing club featuring dynamic class schedules, membership tiers, coach profiles, and an immersive brand experience that drives sign-ups.',
     image: '/images/projects/elite-boxing.jpg',
     technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
-    demoUrl: 'https://boxing-gym-website.vercel.app',
-    githubUrl: `https://github.com/${GITHUB_USER}/elite-boxing-club`,
+    demoUrl: PROJECT_URLS.boxing.demo,
+    githubUrl: PROJECT_URLS.boxing.github,
     problem:
       'Elite Boxing Club needed a digital presence that matched their premium brand identity and converted visitors into paying members.',
     solution:
@@ -66,8 +81,8 @@ export const projects = [
       'An elegant restaurant website with immersive food photography, online reservations, and a curated menu experience that reflects the establishment\'s luxury positioning.',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop',
     technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
-    demoUrl: `https://github.com/${GITHUB_USER}/la-royale`,
-    githubUrl: `https://github.com/${GITHUB_USER}/la-royale`,
+    demoUrl: PROJECT_URLS.restaurant.demo,
+    githubUrl: PROJECT_URLS.restaurant.github,
     problem:
       'A luxury restaurant lacked an online presence that conveyed their upscale dining experience and made reservations effortless.',
     solution:

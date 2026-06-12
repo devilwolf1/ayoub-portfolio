@@ -21,7 +21,7 @@ export default function Projects() {
           description="Explore my latest work — premium websites crafted for real businesses with measurable impact."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <TiltCard key={project.id}>
             <motion.article
